@@ -29,9 +29,6 @@ namespace OopsConcepts
                     break;
 
                 case 3:
-                    break;
-
-                case 4:
                     Random random = new Random();
                    int x= random.Next(1,4);//polymorphism-overloading of two methods which are having same name but different method signature(number of input paramaters)
                                            //here abstraction is also achieved as the menthod next is implemented in random class since it is not showing implementation details here
